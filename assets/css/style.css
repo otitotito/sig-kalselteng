@@ -1,0 +1,90 @@
+* {
+  font-family: "DM Sans";
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  width: 100%;
+  height: 100vh;
+}
+
+#local {
+  border-radius: 5px;
+  width: 425px;
+}
+
+input {
+  font-size: 14px;
+}
+
+.max-height ul {
+  max-height: 500px;
+  overflow: auto;
+  z-index: 999;
+  border-radius: 5px;
+}
+
+.name {
+  float: left;
+  margin-right: 10px;
+  padding: 7px;
+}
+
+.kanan {
+  float: right;
+  background-color: #e0e0e0;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kosong {
+  font-size: 14px;
+}
+
+/* swal2 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.swal2-container {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.swal2-p {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.swal2-minip {
+  text-align: left;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.swal2-ul {
+  text-align: left;
+  margin-bottom: 3px;
+}
+
+.swal2-ul li span {
+  font-weight: bold;
+  font-style: italic;
+  /* Properti CSS untuk rata kanan kiri */
+  text-align: justify;
+}
