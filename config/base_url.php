@@ -1,7 +1,7 @@
 <?php
 function base_url($url = null)
 {
-    $base_url = 'http://10.29.254.234/gis/petaQ';
+    $base_url = 'http://localhost/sig-kalselteng';
     if ($url != null) {
         # code...
         return $base_url . '/' . $url;
